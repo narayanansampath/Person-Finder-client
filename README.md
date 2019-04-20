@@ -2,7 +2,7 @@
 missing person finder with react-native, machine learning and django server.
 
 
-Steps to set-up:
+set-up the project:
 clone the kodona server https://github.com/narayanansampath/person-finder-server.git
 #1  install dependancies
 pip3 install -r requirments.txt
