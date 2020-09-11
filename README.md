@@ -1,21 +1,12 @@
-# Person-Finder
-missing person finder with react-native, machine learning and django server.
+# Kodona
 
+This is the client application for my academic project Kodona which is an application to find missing people using publicly available CCTV footages.
 
-set-up the project:
-clone the kodona server https://github.com/narayanansampath/person-finder-server.git
-#1  install dependancies
-pip3 install -r requirments.txt
+# Pre-requisite 
+To test this project you also need to get the kodona-api project, get it from here https://github.com/narayanansampath/person-finder-server
 
- install postgres database 
-   #2.1 create a database named kodona_db
-   #2.2 create a user named kodona_user password as 'password'
+# Screenshots 
 
-#3 create the database tables
-python3 manage.py migrate
+![screenshot1](https://i.imgur.com/YnVrBKH.png)
 
-#4 run the server
-python3 manage.py runserver
-
-#5 hit the server at
-localhost:8000/
+![screenshot2](https://i.imgur.com/aq7cB8y.png)
